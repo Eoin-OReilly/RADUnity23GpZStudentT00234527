@@ -1,0 +1,5 @@
+﻿Build started...
+------ Build started: Project: Assembly-CSharp, Configuration: Debug Any CPU ------
+C:\Users\T00234527\Desktop\RADZProject\My RAD Project\Assets\Person Controle.cs(7,43): warning CS0414: The field 'PersonControle.RunningSpeed' is assigned but its value is never used
+========== Build: 1 succeeded or up-to-date, 0 failed, 0 skipped ==========
+========== Build started at 10:49 and took 00.314 seconds ==========

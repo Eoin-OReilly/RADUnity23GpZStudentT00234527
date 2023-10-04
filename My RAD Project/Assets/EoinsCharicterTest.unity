@@ -234,15 +234,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400120, guid: 5917c0e93d180a842b61d1ebc62a195c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.28
+      value: 3.045
       objectReference: {fileID: 0}
     - target: {fileID: 400120, guid: 5917c0e93d180a842b61d1ebc62a195c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.35
       objectReference: {fileID: 0}
     - target: {fileID: 400120, guid: 5917c0e93d180a842b61d1ebc62a195c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 400120, guid: 5917c0e93d180a842b61d1ebc62a195c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -483,6 +483,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7896f48c934fe8645bc8517fd24ecf56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  snowballCloneTemplate: {fileID: 0}
 --- !u!1 &1936561906 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100888, guid: 5917c0e93d180a842b61d1ebc62a195c, type: 3}
@@ -500,6 +501,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7896f48c934fe8645bc8517fd24ecf56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  snowballCloneTemplate: {fileID: 0}
 --- !u!1 &1984655302
 GameObject:
   m_ObjectHideFlags: 0

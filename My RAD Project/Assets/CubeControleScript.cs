@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class CubeControleScript : MonoBehaviour
 {
-    Rigidbody myRB;
-    
+
+
+    public GameObject snowballCloneTemplate;
 
     // Start is called before the first frame update
     void Start()
     {
-        myRB = GetComponent<Rigidbody>();
+        
     }
 
     // Update is called once per frame
@@ -48,7 +49,19 @@ public class CubeControleScript : MonoBehaviour
             transform.Rotate(Vector3.up, -90 * Time.deltaTime); 
         }
 
-       
+       if(Input.GetMouseButton(1))
+        {
+           GameObject newGO = Instantiate(snowballCloneTemplate);
+        
+            SnowBallControleScript mySnowball = newGO.GetComponent<SnowBallControleScript>();
+
+            mySnowball.ImThrowingYou(this);
+        
+        
+        }
+
+
+
         
       
 
